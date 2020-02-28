@@ -1,0 +1,269 @@
+body{
+  background-image: url(https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+  /* background-size: cover; */
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+.navbar-brand img{
+  margin: 0.5em;
+}
+
+.centerdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid;
+  border-radius: 100%;
+  width: 12em;
+  height: 12em;
+  padding: 3.5em;
+  -webkit-box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 4px 26px 11px whitesmoke;
+  color: blanchedalmond;
+  /* font-family: 'Lacquer' ; */
+  font-family: 'Tomorrow';
+  font-size: 1.5em;
+  text-align: center;
+text-decoration: none;
+}
+
+.div1{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.icons img{
+  height: 2em;
+  width: 2em;
+  border: antiquewhite 1px solid;
+  box-shadow: 0.3px 2px 2px 2px antiquewhite;
+   
+}
+
+.linkedin{
+  border-radius: 0.25em;
+  background-color: thistle;
+}
+
+.info{
+  border-radius: 100%;
+  background-color: thistle;
+}
+
+.git{
+  border-radius: 0.55em;
+  background-color: thistle;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.divprojects{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+}
+
+
+
+.divprojects h2{
+  color: blanchedalmond;
+  font-family: 'Tomorrow';
+  font-size: 1.5em;
+  text-align: center;
+ 
+}
+
+.projects{
+  /* border: antiquewhite 3px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects img{
+  width: 12em;
+  height: 13em;
+  margin: 1em;
+  border: antiquewhite 2px solid;
+}
+
+/* .singleProject{
+  position: relative;
+  overflow: hidden;
+}
+
+.singleProject img{
+ -webkit-transition: all .5s;
+ -moz-transition: all .5s;
+ -ms-transition:all .5s;
+ -o-transition: all .5s;
+ transition: all .5s;
+}
+
+.imageText{
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  width: 100px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  -webkit-transition: translateY(100%);
+ -moz-transition: translateY(100%);
+ -ms-transition: translateY(100%);
+ -o-transition: translateY(100%);
+ transition: translateY(100%);
+  
+}
+
+.singleProject:hover .imageText{
+  -webkit-transition: translateY(0);
+  -moz-transition: translateY(0);
+  -ms-transition: translateY(0);
+  -o-transition: translateY(0);
+  transition: translateY(0);
+   
+}
+
+.singleProject:hover .project-image{
+  -webkit-transition: scale(1.15);
+  -moz-transition: scale(1.15);
+  -ms-transition: scale(1.15);
+  -o-transition: scale(1.15);
+  transition: scale(1.15);
+   
+} */
+
+.imageText{
+  color: aliceblue;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.thrift-h3{
+  color: blanchedalmond;
+  font-family: 'Tomorrow';
+  font-size: 1.5em;
+  text-align: center;
+  /* padding: 1em; */
+}
+
+.thriftpoint{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+width: 100vw;
+margin: 1em;
+/* border: palevioletred solid 3px; */
+}
+
+.thriftpoint img{
+  width: 25em;
+  height: 30em;
+}
+
+.thriftpoint p{
+  width: 25em;
+  font-family: 'Open Sans Condensed';
+  font-weight: 550;
+  line-height: 2em;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 2em;
+  text-align: justify;
+  
+}
+
+.twodaysaway{
+  display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+width: 100vw;
+margin: 1em;
+}
+
+.twodaysaway img{
+  width: 35em;
+  height: 18em;
+}
+
+.app-description{
+  width: 30em;
+  font-family: 'Open Sans Condensed';
+  font-weight: 550;
+  line-height: 2em;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 2em;
+  text-align: justify;
+}
+
+.twodaysaway-title{
+  color: blanchedalmond;
+  font-family: 'Tomorrow';
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.duckaway{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.duckaway img{
+  width: 30em;
+  height: 30em;
+}
+
+.duck-h3{
+  color: blanchedalmond;
+  font-family: 'Tomorrow';
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.information{
+  background: rgba(255, 255, 255, 0.75);
+  padding: 3em;
+  margin: 1em;
+}
+
+.information h3{
+  color: rgba(199, 122, 71, 0.925);
+  font-family: 'Tomorrow';
+  font-weight: 400;
+  font-size: 1.5em;
+
+}
+
+.information ul{
+  font-family: 'Open Sans Condensed';
+  font-weight: 550;
+  line-height: 2em;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 2em;
+  text-align: justify;
+  list-style-type:none;
+}
