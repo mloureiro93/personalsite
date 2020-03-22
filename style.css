@@ -163,7 +163,12 @@ text-decoration: none;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-}
+  }
+
+  .imageText:hover{
+    text-decoration: none;
+    background: purple;
+  }
 
 
 .thrift-h3{
@@ -171,7 +176,7 @@ text-decoration: none;
   font-family: 'Tomorrow';
   font-size: 1.5em;
   text-align: center;
-  /* padding: 1em; */
+  padding: 1em;
 }
 
 .thriftpoint{
@@ -274,3 +279,11 @@ margin: 1em;
   text-align: justify;
   list-style-type:none;
 }
+
+.eno-img{
+  width: 35em !important;
+  height: 35em !important;
+}
+
+
+
